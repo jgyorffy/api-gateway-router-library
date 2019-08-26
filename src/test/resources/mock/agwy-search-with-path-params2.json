@@ -1,0 +1,114 @@
+{
+  "body": "{\"id\":\"1117cf87-a6ea-4bba-9f2b-5599a3a62342\",\"storeNumber\":\"666\",\"company\":\"Nike\",\"name\":\"Nike Factory Store Corner street\",\"facilityType\":\"NIKE_OWNED_STORE\",\"timezone\":\"Europe/Paris\",\"locale\":\"en-FR\",\"coordinates\":{\"longitude\":2.4643229,\"latitude\":49.2331376},\"address\":{\"address1\":\"201 Rue des Girondins\",\"address2\":\"\",\"address3\":\"\",\"area\":\"\",\"city\":\"Saint-Maximin\",\"state\":\"Oise\",\"postalCode\":\"60740\",\"country\":\"FRA\",\"iso2Country\":\"FR\",\"county\":\"\"},\"region\":\"EUROPE_MIDDLE_EAST_AFRICA\",\"operationalDetails\":{\"openingDate\":\"2015-01-23\",\"closures\":[],\"hoursOfOperation\":{\"regularHours\":{\"monday\":[{\"startTime\":\"10:00\",\"duration\":\"PT10H\"}],\"tuesday\":[{\"startTime\":\"10:00\",\"duration\":\"PT10H\"}],\"wednesday\":[{\"startTime\":\"10:00\",\"duration\":\"PT10H\"}],\"thursday\":[{\"startTime\":\"10:00\",\"duration\":\"PT10H\"}],\"friday\":[{\"startTime\":\"10:00\",\"duration\":\"PT10H\"}],\"saturday\":[{\"startTime\":\"10:00\",\"duration\":\"PT10H\"}],\"sunday\":[{\"startTime\":\"10:00\",\"duration\":\"PT10H\"}]},\"specialHours\":[]}},\"businessConcept\":\"FACTORY\",\"description\":\"Nike\",\"email\":\"DoNotReply_Nike_Factory_Store_Creil_St_Maximin@nike.com\",\"phone\":\"0033 3 65 53 00 54\",\"imageUrl\":\"https://cdn.filepicker.io/api/file/DPXqkeKNQzu8KieWhNwo\",\"brand\":\"NIKE\",\"twitterHandle\":\"\",\"published\":true,\"testStore\":false,\"storeStatus\":\"OPEN\",\"currencies\":[\"EUR\"],\"slug\":\"nike-factory-store-creil-st-maximin\",\"defaultLanguage\":\"fr\"}",
+  "resource": "/store/stores/{proxy+}",
+  "requestContext": {
+    "resourceId": "lo1bue",
+    "apiId": "x7zpew4ybl",
+    "resourcePath": "/store/stores/{proxy+}",
+    "httpMethod": "PUT",
+    "requestId": "6591df15-8333-11e9-aab2-a9cd18c5392a",
+    "extendedRequestId": "ahU_-EUlIAMFuDA=",
+    "accountId": "470025801381",
+    "identity": {
+      "apiKey": null,
+      "apiKeyId": null,
+      "userArn": null,
+      "cognitoAuthenticationType": null,
+      "caller": null,
+      "userAgent": "PostmanRuntime/7.1.1",
+      "user": null,
+      "cognitoIdentityPoolId": null,
+      "cognitoIdentityId": null,
+      "cognitoAuthenticationProvider": null,
+      "sourceIp": "173.181.112.49",
+      "accountId": null,
+      "accessKey": null
+    },
+    "authorizer": {
+      "principalId": "retailadminip",
+      "claims": null
+    },
+    "stage": "test",
+    "path": "/test/store/stores/v2/1117cf87-a6ea-4bba-9f2b-5599a3a62342",
+    "protocol": "HTTP/1.1",
+    "requestTime": "30/May/2019:23:33:58 +0000",
+    "requestTimeEpoch": 1559259238214,
+    "elb": null
+  },
+  "multiValueQueryStringParameters": null,
+  "multiValueHeaders": {
+    "Accept": [
+      "*/*"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate"
+    ],
+    "Authorization": [
+      "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjMxYWRkMzY2LWQ3MmYtNGJlMS04ZTI2LTY4NmQ5NTY1ZDk1OHNpZyJ9.eyJpc3MiOiJyZXRhaWxhZG1pbmlwIiwianRpIjoiNWRlNGFiYmItYWJkNC00NDNkLTlkZGQtM2YxODg0NDUzYWQ5Iiwic3ViIjoicmV0YWlsYWRtaW5pcCIsImF1ZCI6WyJmb28iXSwic2NwIjpbIndyaXRlIiwicmVhZCJdLCJleHAiOjE1NTkyOTQ3Njh9.rBPRHNA7H9wP2_PYrr_6imZ4ubr-uAmikY_tbws3WiRTADI6cKXGq-PGKsJPvYp-xRmRnjpx3hLkqHrA-SKbNQYRRWFPWclA_L8ZVeFO2YZG-aCtU8WBiFvbBGC5HLEiZ58EEzLuMUlZXhfhkA4aX-BcRMz6gCnxN7FYno9zQ-Ehr_uXI-KUi8fG1U7-w_qEXsbtp8qoZ32nTNJ2YdHPDzFCSyqopIaz0KvM_oXQDEfrxQWly2lliEZ_Fr9IfeaaX2vACzSa0JfzrK3DjVYx63CUQvclIqLhASA7bUsMVQnZSTdWnJAvA3skajePmEEtOvQ0qsdfO8JtudDLEWqZUg"
+    ],
+    "cache-control": [
+      "no-cache"
+    ],
+    "CloudFront-Forwarded-Proto": [
+      "https"
+    ],
+    "CloudFront-Is-Desktop-Viewer": [
+      "true"
+    ],
+    "CloudFront-Is-Mobile-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-SmartTV-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-Tablet-Viewer": [
+      "false"
+    ],
+    "CloudFront-Viewer-Country": [
+      "CA"
+    ],
+    "Content-Type": [
+      "text/plain"
+    ],
+    "Host": [
+      "x7zpew4ybl.execute-api.us-east-1.amazonaws.com"
+    ],
+    "Postman-Token": [
+      "28b793d3-fbb0-4609-9dd8-00edcdb2bef4"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.1.1"
+    ],
+    "Via": [
+      "1.1 559326ad73233233a9e52cb9e8601ede.cloudfront.net (CloudFront)"
+    ],
+    "X-Amz-Cf-Id": [
+      "OVW-5Z0X5MjlZHRueH8wyUoEzF5UFp2Eq4FjAmrW_IXvj4dZeig2UA=="
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-5cf06866-632c28683a316e3ed723178c"
+    ],
+    "X-Forwarded-For": [
+      "173.181.112.49, 64.252.141.94"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "pathParameters": {
+    "proxy": "v2/1117cf87-a6ea-4bba-9f2b-5599a3a62342"
+  },
+  "httpMethod": "PUT",
+  "stageVariables": {
+    "CLAIMS_Stores": "eyJyZXNvdXJjZSI6Ii9zdG9yZS9zdG9yZXMiLCJhY2Nlc3MiOnsiR0VUIjp7Imlzc3VlciI6ImFsbCIsImF1ZGllbmNlIjoiYWxsIn0sIlBVVCI6eyJpc3N1ZXIiOiJyZXRhaWxhZG1pbixyZXRhaWxhZG1pbmlwLHJldGFpbGFkbWluamUiLCJhdWRpZW5jZSI6ImFsbCJ9LCJQT1NUIjp7Imlzc3VlciI6InJldGFpbGFkbWluLHJldGFpbGFkbWluaXAscmV0YWlsYWRtaW5qZSIsImF1ZGllbmNlIjoiYWxsIn0sIkRFTEVURSI6eyJpc3N1ZXIiOiJyZXRhaWxhZG1pbixyZXRhaWxhZG1pbmlwLHJldGFpbGFkbWluamUiLCJhdWRpZW5jZSI6ImFsbCJ9fX0=",
+    "CLAIMS_Warehouses": "eyJyZXNvdXJjZSI6Ii9zdXBwbHkvd2FyZWhvdXNlcyIsImFjY2VzcyI6eyJHRVQiOnsiaXNzdWVyIjoiYWxsIiwiYXVkaWVuY2UiOiJhbGwifSwiUFVUIjp7Imlzc3VlciI6InJldGFpbGFkbWluLHJldGFpbGFkbWluaXAiLCJhdWRpZW5jZSI6ImFsbCJ9LCJQT1NUIjp7Imlzc3VlciI6InJldGFpbGFkbWluLHJldGFpbGFkbWluaXAiLCJhdWRpZW5jZSI6ImFsbCJ9LCJERUxFVEUiOnsiaXNzdWVyIjoicmV0YWlsYWRtaW4scmV0YWlsYWRtaW5pcCIsImF1ZGllbmNlIjoiYWxsIn19fQ==",
+    "CLAIMS_DigitalStores": "eyJyZXNvdXJjZSI6Ii9zdG9yZS9kaWdpdGFsX3N0b3JlcyIsImFjY2VzcyI6eyJHRVQiOnsiaXNzdWVyIjoiYWxsIiwiYXVkaWVuY2UiOiJhbGwifSwiUFVUIjp7Imlzc3VlciI6InJldGFpbGFkbWluLHJldGFpbGFkbWluaXAiLCJhdWRpZW5jZSI6ImFsbCJ9LCJQT1NUIjp7Imlzc3VlciI6InJldGFpbGFkbWluLHJldGFpbGFkbWluaXAiLCJhdWRpZW5jZSI6ImFsbCJ9LCJERUxFVEUiOnsiaXNzdWVyIjoicmV0YWlsYWRtaW4scmV0YWlsYWRtaW5pcCIsImF1ZGllbmNlIjoiYWxsIn19fQ==",
+    "CLAIMS_StoreViews": "eyJyZXNvdXJjZSI6Ii9zdG9yZS9zdG9yZV92aWV3cyIsImFjY2VzcyI6eyJHRVQiOnsiaXNzdWVyIjoiYWxsIiwiYXVkaWVuY2UiOiJhbGwiLCJ3aGl0ZWxpc3QiOiJjb20ubmlrZTp0ZXN0LWNhbGxlci1pZCxjb20uZm9yY2UubGlnaHRuaW5nOm5pa2V4Y2hhbmdlLGNvbS5uaWtlOmRpZ2l0YWwud2VjaGF0bWluaXByb2dyYW0sY29tLm5pa2U6cmV0YWlsLmFzc2lzdCxjb20ubmlrZTpyZXRhaWwuc2ltLGNvbS5uaWtlOnJldGFpbC5zY29yZSxjb20ubmlrZTpyZXRhaWwubG9va0J1aWxkZXIsY29tLm5pa2U6cmV0YWlsLmxpbmsifX19"
+  },
+  "path": "/store/stores/v2/1117cf87-a6ea-4bba-9f2b-5599a3a62342",
+  "base64Encoded": false,
+  "requestSource": "API_GATEWAY"
+}

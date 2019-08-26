@@ -1,0 +1,103 @@
+{
+  "resource": "/store/store_views/v1/about",
+  "path": "/store/store_views/v1/about",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxMmJiNTI4LTY5YTgtNDEwYi1hY2IyLWU0YWIxMDNjZGM3N3NpZyJ9.eyJpc3MiOiJyaXNlLXRlc3QiLCJqdGkiOiJlNWM2MzY0NS1iZDI2LTRiZTUtYTJjOC0yOWY3YjAyNzRmNGQiLCJzdWIiOiJyaXNlLXRlc3QiLCJhdWQiOlsic3RvcmV2aWV3cyJdLCJzY3AiOlsid3JpdGUiLCJyZWFkIl0sImV4cCI6MTU1NDY5MTU4OX0.UYM67svzeaNtFq4pp7m4XEMpGKgIeVolcMKzz9X1S7VUToQbxl0H5ayPbYfEJzFuSOdrPkebhqoLI8D-0NAc9t4gudvj8OYDsByMOVy6ir27871ZtMRn64-K16OTSsNew9WwHDwjWtFnem_nSzrPxzwI4KFVye0jkQ6xJbvxgViCNgUxDo8E1TL1d69iVk9f8QACg3te7By7vo7bqm1QrENbY4exkrRCXmXbPAWjxqQGHsze2F1kgOibvn8u9fXJWic8CXntAh-wC7CKgvVRYJHkc2L6SR2hsRksuc1DtrioVMEujVAiMK2AHShvfpRnA_TwL0L-MO-AZn66Z8odBg",
+    "cache-control": "no-cache",
+    "Host": "ry50qwy9ec.execute-api.us-east-1.amazonaws.com",
+    "Postman-Token": "072d3f61-c171-4491-93b8-6ba36da00e71",
+    "User-Agent": "PostmanRuntime/7.1.1",
+    "X-Amzn-Trace-Id": "Root=1-5caa344a-442bf35a6ffcca656eb672a6",
+    "X-Forwarded-For": "73.190.72.119",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": [
+      "*/*"
+    ],
+    "accept-encoding": [
+      "gzip, deflate"
+    ],
+    "Authorization": [
+      "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImYxMmJiNTI4LTY5YTgtNDEwYi1hY2IyLWU0YWIxMDNjZGM3N3NpZyJ9.eyJpc3MiOiJyaXNlLXRlc3QiLCJqdGkiOiJlNWM2MzY0NS1iZDI2LTRiZTUtYTJjOC0yOWY3YjAyNzRmNGQiLCJzdWIiOiJyaXNlLXRlc3QiLCJhdWQiOlsic3RvcmV2aWV3cyJdLCJzY3AiOlsid3JpdGUiLCJyZWFkIl0sImV4cCI6MTU1NDY5MTU4OX0.UYM67svzeaNtFq4pp7m4XEMpGKgIeVolcMKzz9X1S7VUToQbxl0H5ayPbYfEJzFuSOdrPkebhqoLI8D-0NAc9t4gudvj8OYDsByMOVy6ir27871ZtMRn64-K16OTSsNew9WwHDwjWtFnem_nSzrPxzwI4KFVye0jkQ6xJbvxgViCNgUxDo8E1TL1d69iVk9f8QACg3te7By7vo7bqm1QrENbY4exkrRCXmXbPAWjxqQGHsze2F1kgOibvn8u9fXJWic8CXntAh-wC7CKgvVRYJHkc2L6SR2hsRksuc1DtrioVMEujVAiMK2AHShvfpRnA_TwL0L-MO-AZn66Z8odBg"
+    ],
+    "cache-control": [
+      "no-cache"
+    ],
+    "Host": [
+      "ry50qwy9ec.execute-api.us-east-1.amazonaws.com"
+    ],
+    "Postman-Token": [
+      "072d3f61-c171-4491-93b8-6ba36da00e71"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.1.1"
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-5caa344a-442bf35a6ffcca656eb672a6"
+    ],
+    "X-Forwarded-For": [
+      "73.190.72.119"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "queryStringParameters": {
+    "search": "storeNumber==6416 and address.country==CHL"
+  },
+  "multiValueQueryStringParameters": {
+    "search": [
+      "storeNumber==6416 and address.country==CHL"
+    ]
+  },
+  "pathParameters": null,
+  "stageVariables": {
+    "acceptedAudiences": "stores,storeviews",
+    "acceptedIssuers": "all"
+  },
+  "requestContext": {
+    "resourceId": "0gwxgo",
+    "authorizer": {
+      "audiences": "storeviews",
+      "principalId": "rise-test",
+      "integrationLatency": 55,
+      "issuer": "rise-test"
+    },
+    "resourcePath": "/store/store_views/v1",
+    "httpMethod": "GET",
+    "extendedRequestId": "Xx0brE2TIAMFieQ=",
+    "requestTime": "07/Apr/2019:17:32:58 +0000",
+    "path": "/test/store/store_views/v1/",
+    "accountId": "470025801381",
+    "protocol": "HTTP/1.1",
+    "stage": "test",
+    "domainPrefix": "ry50qwy9ec",
+    "requestTimeEpoch": 1554658378779,
+    "requestId": "2fa59ec6-595b-11e9-81d6-3121f5f42ba3",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "73.190.72.119",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "PostmanRuntime/7.1.1",
+      "user": null
+    },
+    "domainName": "ry50qwy9ec.execute-api.us-east-1.amazonaws.com",
+    "apiId": "ry50qwy9ec"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}

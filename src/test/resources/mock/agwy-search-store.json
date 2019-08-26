@@ -1,0 +1,118 @@
+{
+  "type": "REQUEST",
+  "methodArn": "arn:aws:execute-api:us-east-1:470025801381:pay091c2ni/test/GET/store/store_views/v1",
+  "resource": "/store/store_views/{proxy+}",
+  "path": "/store/store_views/v1/",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "Host": "pay091c2ni.execute-api.us-east-1.amazonaws.com",
+    "Postman-Token": "fb390a09-b0d8-4af7-b0d9-e763b1b6c737",
+    "User-Agent": "PostmanRuntime/7.1.1",
+    "Via": "1.1 cc939d428763f6bf98a05191227da596.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "sbSGCwGDLmH9BmoTbyoA-ILz_oYBjJZwal3o2OrP5HlXISI6Eb18Sw==",
+    "X-Amzn-Trace-Id": "Root=1-5cdd87ab-05d3e4e672b08b67f5ef5b37",
+    "X-Forwarded-For": "165.225.50.96, 52.46.17.42",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https",
+    "cache-control": "no-cache",
+    "nike-api-caller-id": "com.nike:test-caller-id"
+  },
+  "multiValueHeaders": {
+    "Accept": [
+      "*/*"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate"
+    ],
+    "CloudFront-Forwarded-Proto": [
+      "https"
+    ],
+    "CloudFront-Is-Desktop-Viewer": [
+      "true"
+    ],
+    "CloudFront-Is-Mobile-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-SmartTV-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-Tablet-Viewer": [
+      "false"
+    ],
+    "CloudFront-Viewer-Country": [
+      "US"
+    ],
+    "Host": [
+      "pay091c2ni.execute-api.us-east-1.amazonaws.com"
+    ],
+    "Postman-Token": [
+      "fb390a09-b0d8-4af7-b0d9-e763b1b6c737"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.1.1"
+    ],
+    "Via": [
+      "1.1 cc939d428763f6bf98a05191227da596.cloudfront.net (CloudFront)"
+    ],
+    "X-Amz-Cf-Id": [
+      "sbSGCwGDLmH9BmoTbyoA-ILz_oYBjJZwal3o2OrP5HlXISI6Eb18Sw=="
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-5cdd87ab-05d3e4e672b08b67f5ef5b37"
+    ],
+    "X-Forwarded-For": [
+      "165.225.50.96, 52.46.17.42"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ],
+    "cache-control": [
+      "no-cache"
+    ],
+    "nike-api-caller-id": [
+      "com.nike:test-caller-id"
+    ]
+  },
+  "queryStringParameters": {
+    "search": "address.country==CHL"
+  },
+  "multiValueQueryStringParameters": {
+    "search": [
+      "address.country==CHL"
+    ]
+  },
+  "pathParameters": {
+    "proxy": "v1"
+  },
+  "stageVariables": {
+    "CLAIMS_DigitalStores": "eyJyZXNvdXJjZSI6Ii9zdG9yZS9kaWdpdGFsX3N0b3JlcyIsImFjY2VzcyI6eyJHRVQiOnsiaXNzdWVyIjoiYWxsIiwiYXVkaWVuY2UiOiJhbGwifSwiUFVUIjp7Imlzc3VlciI6InJldGFpbGFkbWluLHJldGFpbGFkbWluaXAiLCJhdWRpZW5jZSI6ImFsbCJ9LCJQT1NUIjp7Imlzc3VlciI6InJldGFpbGFkbWluLHJldGFpbGFkbWluaXAiLCJhdWRpZW5jZSI6ImFsbCJ9LCJERUxFVEUiOnsiaXNzdWVyIjoicmV0YWlsYWRtaW4scmV0YWlsYWRtaW5pcCIsImF1ZGllbmNlIjoiYWxsIn19fQ==",
+    "CLAIMS_StoreViews": "eyJyZXNvdXJjZSI6Ii9zdG9yZS9zdG9yZV92aWV3cyIsImFjY2VzcyI6eyJHRVQiOnsiaXNzdWVyIjoiYWxsIiwiYXVkaWVuY2UiOiJhbGwiLCJ3aGl0ZWxpc3QiOiJjb20ubmlrZTp0ZXN0LWNhbGxlci1pZCxjb20uZm9yY2UubGlnaHRuaW5nOm5pa2V4Y2hhbmdlLGNvbS5uaWtlOmRpZ2l0YWwud2VjaGF0bWluaXByb2dyYW0sY29tLm5pa2U6cmV0YWlsLmFzc2lzdCxjb20ubmlrZTpyZXRhaWwuc2ltLGNvbS5uaWtlOnJldGFpbC5zY29yZSxjb20ubmlrZTpyZXRhaWwubG9va0J1aWxkZXIsY29tLm5pa2U6cmV0YWlsLmxpbmsifX19",
+    "CLAIMS_Stores": "eyJyZXNvdXJjZSI6Ii9zdG9yZS9zdG9yZXMiLCJhY2Nlc3MiOnsiR0VUIjp7Imlzc3VlciI6ImFsbCIsImF1ZGllbmNlIjoiYWxsIn0sIlBVVCI6eyJpc3N1ZXIiOiJyZXRhaWxhZG1pbixyZXRhaWxhZG1pbmlwLHJldGFpbGFkbWluamUiLCJhdWRpZW5jZSI6ImFsbCJ9LCJQT1NUIjp7Imlzc3VlciI6InJldGFpbGFkbWluLHJldGFpbGFkbWluaXAscmV0YWlsYWRtaW5qZSIsImF1ZGllbmNlIjoiYWxsIn0sIkRFTEVURSI6eyJpc3N1ZXIiOiJyZXRhaWxhZG1pbixyZXRhaWxhZG1pbmlwLHJldGFpbGFkbWluamUiLCJhdWRpZW5jZSI6ImFsbCJ9fX0=",
+    "CLAIMS_Warehouses": "eyJyZXNvdXJjZSI6Ii9zdG9yZS93YXJlaG91c2VzIiwiYWNjZXNzIjp7IkdFVCI6eyJpc3N1ZXIiOiJhbGwiLCJhdWRpZW5jZSI6ImFsbCJ9LCJQVVQiOnsiaXNzdWVyIjoicmV0YWlsYWRtaW4scmV0YWlsYWRtaW5pcCIsImF1ZGllbmNlIjoiYWxsIn0sIlBPU1QiOnsiaXNzdWVyIjoicmV0YWlsYWRtaW4scmV0YWlsYWRtaW5pcCIsImF1ZGllbmNlIjoiYWxsIn0sIkRFTEVURSI6eyJpc3N1ZXIiOiJyZXRhaWxhZG1pbixyZXRhaWxhZG1pbmlwIiwiYXVkaWVuY2UiOiJhbGwifX19"
+  },
+  "requestContext": {
+    "path": "/test/store/store_views/v1",
+    "accountId": "470025801381",
+    "resourceId": "ioyys4",
+    "stage": "test",
+    "requestId": "dd8e9259-77f2-11e9-b794-054d01f8b293",
+    "identity": {
+      "apiKey": "",
+      "sourceIp": "165.225.50.96"
+    },
+    "resourcePath": "/store/store_views/{proxy+}",
+    "httpMethod": "GET",
+    "apiId": "pay091c2ni"
+  }
+}

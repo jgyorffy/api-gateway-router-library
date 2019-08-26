@@ -1,0 +1,88 @@
+{
+  "resource": "/pathvar/{operand1}/{operand2}",
+  "path": "/pathvar/user/test",
+  "httpMethod": "GET",
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-US,en;q=0.9",
+    "Host": "y26t4gn5o2.execute-api.us-east-1.amazonaws.com",
+    "upgrade-insecure-requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36",
+    "X-Amzn-Trace-Id": "Root=1-5cd5acc2-363c426bc3b48b53b3301e62",
+    "X-Forwarded-For": "165.225.50.106",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+    ],
+    "accept-encoding": [
+      "gzip, deflate, br"
+    ],
+    "accept-language": [
+      "en-US,en;q=0.9"
+    ],
+    "Host": [
+      "y26t4gn5o2.execute-api.us-east-1.amazonaws.com"
+    ],
+    "upgrade-insecure-requests": [
+      "1"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-5cd5acc2-363c426bc3b48b53b3301e62"
+    ],
+    "X-Forwarded-For": [
+      "165.225.50.106"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": {
+    "operand1": "user",
+    "operand2": "test"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "08l2l1",
+    "resourcePath": "/pathvar/{operand1}/{operand2}",
+    "httpMethod": "GET",
+    "extendedRequestId": "ZefuYHEqIAMF1Ng=",
+    "requestTime": "10/May/2019:16:54:26 +0000",
+    "path": "/test2/pathvar/user/test",
+    "accountId": "470025801381",
+    "protocol": "HTTP/1.1",
+    "stage": "test2",
+    "domainPrefix": "y26t4gn5o2",
+    "requestTimeEpoch": 1557507266423,
+    "requestId": "4501d944-7344-11e9-b135-77200280c037",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "165.225.50.106",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36",
+      "user": null
+    },
+    "domainName": "y26t4gn5o2.execute-api.us-east-1.amazonaws.com",
+    "apiId": "y26t4gn5o2"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
