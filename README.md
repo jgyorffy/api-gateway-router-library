@@ -25,8 +25,14 @@ import com.datapark.agwy.lambda.LambdaResponse;
 import com.datapark.agwy.lambda.RouteHandler;
 import com.datapark.agwy.lambda.ValidationException;
 ```
+### AWS Lambda Setup
+The entry function for the lambda is:
+```java
+api-gateway-router-library.LambdaHandler::handleRequest
+```
 
-### Lambda Request and Security Context from the RISE Authorizer
+
+### Lambda Request and Security Context from the JWT Authorizer
 The request object passed to the function that is mapped in the controller has several convenience functions to extract path parameters, query parameters, and JST claims.
 ```java
 //Gets the claims from the api gateway authorizer
