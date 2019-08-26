@@ -1,4 +1,4 @@
-package com.nike.agwy.lambda;
+package com.datapark.agwy.lambda;
 
 import com.amazonaws.regions.Regions;
 import com.amazonaws.serverless.proxy.model.ApiGatewayRequestIdentity;

@@ -1,4 +1,4 @@
-package com.nike.agwy.lambda;
+package com.datapark.agwy.lambda;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

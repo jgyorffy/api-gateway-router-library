@@ -1,10 +1,10 @@
-package com.nike.agwy.utils;
+package com.datapark.agwy.utils;
 
 import com.amazonaws.serverless.proxy.model.AwsProxyResponse;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.nike.agwy.lambda.LambdaHandlerTests;
+import com.datapark.agwy.lambda.LambdaHandlerTests;
 import io.vavr.control.Try;
 
 import java.io.ByteArrayInputStream;

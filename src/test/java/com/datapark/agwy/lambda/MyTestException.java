@@ -1,4 +1,4 @@
-package com.nike.agwy.lambda;
+package com.datapark.agwy.lambda;
 
 public class MyTestException extends Exception {
     MyTestException(String msg) {

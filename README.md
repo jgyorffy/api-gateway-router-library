@@ -13,17 +13,17 @@
 
 ## Getting Started
 ### Gradle
-[Check for the latest library](https://artifactory.nike.com/artifactory/all-repos/com/nike/rise/agwy/rise-agwy-router-library/)
+[Check for the latest library](https://github.com/jgyorffy/api-gateway-router-library)
 ```groovy
-implementation 'com.nike.rise.agwy:rise-agwy-router-library:0.1.+'
+implementation 'com.datapark.agwy:api-gateway-router-library:0.1.+'
 ```
 ### Imports
 ```java
-import com.nike.agwy.lambda.Controller;
-import com.nike.agwy.lambda.LambdaRequest;
-import com.nike.agwy.lambda.LambdaResponse;
-import com.nike.agwy.lambda.RouteHandler;
-import com.nike.agwy.lambda.ValidationException;
+import com.datapark.agwy.lambda.Controller;
+import com.datapark.agwy.lambda.LambdaRequest;
+import com.datapark.agwy.lambda.LambdaResponse;
+import com.datapark.agwy.lambda.RouteHandler;
+import com.datapark.agwy.lambda.ValidationException;
 ```
 
 ### Lambda Request and Security Context from the RISE Authorizer
@@ -50,7 +50,7 @@ public String getResource();
 public String getHttpMethod();
 ```
 #### Security context
-Uses the [rise-authorizer](https://bitbucket.nike.com/projects/RSTINT/repos/rise-authorizer/browse) for extracting claims
+Uses the [api-gateway-jwt-authorizer](https://github.com/jgyorffy/api-gateway-jwt-authorizer) for extracting claims
 ```java
 //get all custom claims such as scp, etc (if it has commans you will have to split)
 public String getClaim(String key);
@@ -163,7 +163,7 @@ public class MyBigExceptionHandler {
 ```
 Where 
  - lid is the unique ID of the lambda container (useful for monitoring lambda warming)
- - traceId is the `X-B3-TraceId` sent in Nike's headers if there is one or the `X-Amzn-Trace-Id` sent from AWS's API Gateway
+ - traceId is the `X-B3-TraceId` or the `X-Amzn-Trace-Id` sent from AWS's API Gateway
  - 
 #### Using Lambda warming functionality
 This library will handle lambda warming for you. Lambda warming requires that you request for a new lambda container that is not already active (in memory). To have approximately x number of lambda containers ready to service requests without a `cold start`, all lambdas *must* be busy servicing a request before a new container will start. To do warming this approach is used:

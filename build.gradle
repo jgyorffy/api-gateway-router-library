@@ -9,13 +9,7 @@ ext {
 }
 
 repositories {
-    mavenLocal()
-    maven {
-        credentials {
-            username 'maven'
-            password 'ludist'
-        }
-    }
+    mavenCentral()
 }
 
 dependencies {
@@ -41,7 +35,6 @@ dependencies {
 }
 
 test {
-
     jacoco {
         destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
         classDumpDir = file("$buildDir/jacoco/classpathdumps")
@@ -74,14 +67,6 @@ jacocoTestCoverageVerification {
         }
 
     }
-}
-
-apply from: file('gradle/release.gradle')
-
-jar {
-    dependsOn versionInfo
-    baseName = artifactId
-    version = "$releaseVersion"
 }
 
 check.dependsOn jacocoTestCoverageVerification

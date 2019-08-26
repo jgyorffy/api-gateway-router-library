@@ -1,9 +1,9 @@
-package com.nike.agwy.lambda;
+package com.datapark.agwy.lambda;
 
 import com.amazonaws.serverless.proxy.model.AwsProxyRequest;
 import com.amazonaws.serverless.proxy.model.AwsProxyResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nike.agwy.utils.TestUtils;
+import com.datapark.agwy.utils.TestUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
