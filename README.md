@@ -28,7 +28,7 @@ import com.datapark.agwy.lambda.ValidationException;
 ### AWS Lambda Setup
 The entry function for the lambda is:
 ```java
-api-gateway-router-library.LambdaHandler::handleRequest
+com.datapark.agwy.lambda.LambdaHandler::handleRequest
 ```
 
 
